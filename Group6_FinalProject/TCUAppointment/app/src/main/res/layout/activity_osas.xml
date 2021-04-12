@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context=".OsasActivity">
+
+    <TextView
+        android:id="@+id/osasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OSAS"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imageosas"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/osasa"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/osasa"
+        />
+
+    <TextView
+        android:id="@+id/osasb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageosas"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Office of the Student Affairs and Society or OSAS play a key role in managing communications with parents via setting up and managing reporting procedures. They also ensure that parents have easy access to their child's information.  This is also where you are able to talk to a guidance counselor where you can address your problem confidentially. "
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="btn_backB"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET APPOINTMENT"
+        android:layout_marginTop="10dp"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="btn_setB"
+        />
+
+</RelativeLayout>

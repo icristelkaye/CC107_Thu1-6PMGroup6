@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context=".AlumniActivity">
+
+    <TextView
+        android:id="@+id/alumnia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALUMNI AND PLACEMENT OFFICE"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imagealumni"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/alumnia"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/alumnia"
+        />
+
+    <TextView
+        android:id="@+id/alumnib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagealumni"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="This is where they develops, coordinates and evaluates programs and projects to promote alumni relations and educational programs designed to connect alumni through academic channels such as programs/departments/schools/colleges. Plans, coordinates, and attends events, meetings, or other activities as requested by academic units. This may also include alumni and volunteer recognition banquets, receptions, homecoming, and reunions. Identifies, cultivates, and stewards alumni and volunteers. Helps current volunteer leadership to identify potential new volunteers and future leadership."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="btn_backD"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET APPOINTMENT"
+        android:layout_marginTop="10dp"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="btn_setD"
+        />
+
+</RelativeLayout>

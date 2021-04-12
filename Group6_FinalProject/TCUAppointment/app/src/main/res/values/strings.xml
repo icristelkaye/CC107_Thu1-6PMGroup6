@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TCU Appointment</string>
+
+    <string name="regAA">
+
+        This office is responsible for maintenance of academic records of students enrolled since inception, academic scheduling, registration into courses, providing assistance on academic issues to faculty members and students, enrollment or graduation verification, student status, etc.
+
+    </string>
+
+    <string name="regAAA">
+        <p><b>E-mail :</b> tcuregistrar2006@gmail.com</p>
+<p><b>Phone No. :</b> 635-8300 local 7201-7205 or 09668868017</p>
+        <p><b>Sunday.</b> Closed</p>
+        <p><b>Monday.</b> 8:00am–5:00pm</p>
+        <p><b>Tuesday.</b> 8:00am–5:00pm</p>
+        <p><b>Wednesday.</b> 8:00am–5:00pm</p>
+        <p><b>Thursday.</b> 8:00am–5:00pm</p>
+        <p><b>Friday.</b> 8:00am–5:00pm</p>
+        <p><b>Saturday.</b> 8:00am–5:00pm</p>
+
+    </string>
+
+</resources>

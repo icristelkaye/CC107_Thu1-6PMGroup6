@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/philo"
+    tools:context=".MainActivity2">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#DF0606"
+        app:sliderIndicatorUnselectedColor="@color/white"
+        app:sliderScrollTimeInSec="2"
+        app:sliderStartAutoCycle="true"
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_slider"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="Gen. Santos Ave., Central Bicutan Taguig City, Metro Manila , Philippines"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnoffices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFFICES"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+        android:onClick="btn_tcu_offices"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context=".LibraryActivity">
+
+    <TextView
+        android:id="@+id/liba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imagelib"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/liba"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/librarya"
+        />
+
+    <TextView
+        android:id="@+id/libb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagelib"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="A library is a curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a physical location or a virtual space, or both. Maintain records and Library assistants also answer students concern to the library and direct them to the appropriate people."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="btn_backH"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET APPOINTMENT"
+        android:layout_marginTop="10dp"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="btn_setH"
+        />
+
+</RelativeLayout>

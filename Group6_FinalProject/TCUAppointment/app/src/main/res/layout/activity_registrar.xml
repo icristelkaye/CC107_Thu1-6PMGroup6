@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    android:orientation="vertical"
+    tools:context=".RegistrarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/regA"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/regis"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regAA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regAAA"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+            />
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#F5FBF6"
+            android:background="#EE001C"
+            android:onClick="btn_backA"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SET APPOINTMENT"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textColor="#F5FBF6"
+            android:background="#EE001C"
+            android:onClick="btn_setA"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

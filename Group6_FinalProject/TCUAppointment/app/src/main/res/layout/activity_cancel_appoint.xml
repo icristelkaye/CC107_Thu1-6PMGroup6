@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context=".CancelAppoint">
+
+    <ImageView
+        android:id="@+id/imageview10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact to Cancel an Appointment"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/imageview10"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="30dp"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-34dp"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/black"
+        android:hint="Enter Fullname with Message..."
+        />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Send"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Back"
+        android:onClick="back"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        />
+
+</RelativeLayout>

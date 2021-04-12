@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context=".DeanActivity">
+
+    <TextView
+        android:id="@+id/collegea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE DEAN"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imagecollege"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/collegea"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/collegea"
+        />
+
+    <TextView
+        android:id="@+id/collegeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagecollege"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="He/She is responsible for approving faculty hiring, overseeing budget, fundraising, setting academic rules and policies, developing academic programs and performing other administrative functions. Also is the representative of University leadership to their colleges and managers of college resources."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="btn_backE"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET APPOINTMENT"
+        android:layout_marginTop="10dp"
+        android:textColor="#F5FBF6"
+        android:background="#EE001C"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="btn_setE"
+        />
+
+</RelativeLayout>

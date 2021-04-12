@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contactus"
+    tools:context=".ExitPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/prog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programmers"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Cristel Kaye Isuga"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progAA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="ckisuga@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Mary Joy Samarita"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progBB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="mjaysamarita9@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Estifani Delfin"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="stephaniedelfin8@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Agatha Jane Noora"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progDD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="ajen.12500@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Russell Navidad"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/progEE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="navidadrussell@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>
